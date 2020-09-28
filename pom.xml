@@ -15,9 +15,10 @@
     <modules>
         <module>monitor-hystrix-dashboard</module>
         <module>monitor-turbine</module>
+        <module>monitor-springboot-admin</module>
     </modules>
 
-    <repositories>
+   <!-- <repositories>
         <repository>
             <id>spring-aliyun</id>
             <name>Spring Aliyun</name>
@@ -26,11 +27,11 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-        <!--引入github上发布的版本-->
+        &lt;!&ndash;引入github上发布的版本&ndash;&gt;
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
 </project>
